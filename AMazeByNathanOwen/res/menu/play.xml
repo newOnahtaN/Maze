@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.wm.cs.cs301.NathanOwen.PlayActivity" >
+
+    <item android:id="@+id/show_map" 
+        android:icon="@drawable/ic_action_map"
+        android:visible="true" 
+        android:title="@string/show_map" 
+        android:showAsAction="ifRoom"
+        android:checkable="true" android:checked="false"/>
+    <item android:id="@+id/show_walls" 
+        android:icon="@drawable/ic_action_view_as_grid"
+        android:visible="true" 
+        android:title="@string/show_walls" 
+        android:showAsAction="ifRoom"
+        android:checkable="true" android:checked="false"/>
+    <item android:id="@+id/show_sol" 
+        android:icon="@drawable/ic_action_directions"
+        android:visible="true" 
+        android:title="@string/show_sol" 
+        android:showAsAction="ifRoom"
+        android:checkable="true" android:checked="false"/>
+    <item android:id="@+id/incrementMap" 
+        android:icon="@drawable/ic_action_full_screen"
+        android:visible="true" 
+        android:title="@string/increment_map" 
+        android:showAsAction="ifRoom"
+        android:checkable="true" android:checked="false"/>
+    <item android:id="@+id/decrementMap" 
+        android:icon="@drawable/ic_action_download"
+        android:visible="true" 
+        android:title="@string/decrement_map" 
+        android:showAsAction="ifRoom"
+        android:checkable="true" android:checked="false"/>
+
+</menu>

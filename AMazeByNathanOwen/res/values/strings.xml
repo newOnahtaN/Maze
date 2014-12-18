@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Maze</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="run_maze">Play Maze</string>
+    <string name="title_activity_generating"></string>
+    <string name="skill_level">Maze Difficulty</string>
+    <string name="gen_maze">Generate New Maze</string>
+    <string name="file_maze">Preloaded Maze</string>
+    <string name="solv_algo">Driver Algorithm</string>
+    <string name="load_str">Generating Maze</string>
+    <string name="show_map">Show Map</string>
+    <string name="show_walls">Show Walls</string>
+    <string name="show_sol">Show Solution</string>
+    <string name="success">Success!</string>
+    <string name="failure">Failure</string>
+    <string name="you_lost">You Lost.\n\n</string>
+    <string name="you_won">You Won!</string>
+    <string name="continue_game">Press the button at the top left to play again.</string>
+    <string name="battery">Battery Level: ~</string>
+    <string name="path_length">Path Length: ~ \n</string>
+    <string name="battery_level">Battery</string>
+    <string name="up">Up</string>
+    <string name="down">Down</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="increment_map">Enlarge Map</string>
+    <string name="decrement_map">Shrink Map</string>
+    <string name="pause">Pause</string>
+    <string name="save">Save Maze</string>
+
+    <string-array name="builder_algos">
+        <item>Default</item>
+        <item>Prim</item>
+        <item>Aldous-Broder</item>
+    </string-array>
+    <string-array name="driver_algos">
+        <item>Manual</item>
+        <item>Gambler</item>
+        <item>Wall-Follower</item>
+        <item>Tremaux</item>
+        <item>Wizard</item>
+    </string-array>
+
+    <string name="title_activity_play"></string>
+    <string name="title_activity_finish"></string>
+
+</resources>
